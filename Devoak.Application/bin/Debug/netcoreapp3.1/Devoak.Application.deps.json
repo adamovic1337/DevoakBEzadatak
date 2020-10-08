@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Devoak.Application/1.0.0": {
+        "dependencies": {
+          "Devoak.Domen": "1.0.0"
+        },
+        "runtime": {
+          "Devoak.Application.dll": {}
+        }
+      },
+      "Devoak.Domen/1.0.0": {
+        "runtime": {
+          "Devoak.Domen.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Devoak.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Devoak.Domen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

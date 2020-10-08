@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="31.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Devoak.Application\Devoak.Application.csproj" />
+    <ProjectReference Include="..\Devoak.DataAccess\Devoak.DataAccess.csproj" />
+    <ProjectReference Include="..\Devoak.Domen\Devoak.Domen.csproj" />
+    <ProjectReference Include="..\Devoak.Implementation\Devoak.Implementation.csproj" />
+  </ItemGroup>
+
+
+</Project>
